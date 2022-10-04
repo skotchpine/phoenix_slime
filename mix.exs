@@ -22,7 +22,7 @@ defmodule PhoenixSlime.Mixfile do
     [
       {:phoenix, "~> 1.6.0"},
       {:phoenix_html, "~> 3.0"},
-      {:phoenix_live_view, "~> 0.17.2"},
+      {:phoenix_live_view, "~> 0.18"},
       {:jason, "~> 1.0", optional: true},
       {:slime, github: "tensiondriven/slime"},
       {:ex_doc, ">= 0.0.0", only: :dev},
