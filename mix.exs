@@ -25,10 +25,11 @@ defmodule PhoenixSlime.Mixfile do
   def deps do
     [
       {:phoenix, "~> 1.7.0"},
-      {:phoenix_html, "~> 3.3"},
+      {:phoenix_html, "~> 4.0"},
       {:phoenix_live_view, "> 0.18.16"},
       {:jason, "~> 1.0", optional: true},
-      {:slime, github: "populimited/slime", branch: "no-compile"},
+      # {:slime, github: "skotchpine/slime"},
+      {:slime, path: "../slime"},
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:earmark, ">= 0.0.0", only: :dev},
       {:credo, ">= 0.0.0", only: [:dev, :test]},
